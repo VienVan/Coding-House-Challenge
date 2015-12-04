@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<hmtl>
+    <head>
+            <meta charset="utf-8">
+            <script type ='text/javascript' src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+            <style>
+                .change-text-color {
+                    background-color: black;
+                    color: white;
+                }
+                
+            </style>
+    </head>
+        
+    <body>
+        <h1>This text will change color.</h1>
+        <footer>
+            <button>Click here</button>
+            
+        </footer>
+        
+        <script>
+            $(document).ready(function() {
+                $('button').click(function() {
+                  $('body').toggleClass('change-text-color');
+                });
+                });
+                
+   
+        
+        </script>
+        
+     
+    </body>
+    
+
+        
+</hmtl>
